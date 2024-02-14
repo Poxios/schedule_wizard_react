@@ -15,11 +15,11 @@
 
 .table-wrapper {
   width: 600px;
-  /* height: 800px; */
   background-color: purple;
   display: flex;
   flex-wrap: wrap;
   position: relative;
+  font-size: 12px;
 }
 
 .cell {
