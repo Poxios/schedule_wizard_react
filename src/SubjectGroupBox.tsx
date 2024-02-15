@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
-import { Box, Checkbox, Grid, IconButton, Input, Stack, TextField, Typography } from "@mui/material";
-import React, { useState } from "react";
+import { Checkbox, Grid, IconButton, Stack, TextField, Typography } from "@mui/material";
+import { useState } from "react";
 import { Add, Delete, Create, Clear, Check } from "@mui/icons-material";
 
 const EditSubjectTitleInput = styled(TextField)`
@@ -19,40 +19,48 @@ const SubjectGroupBox = (props: ISubjectGroupBoxProps) => {
   return (
     <Stack>
       {/* // ? Nav */}
-      <Box
+      <Grid
+        container
         sx={{
           display: "flex",
           alignItems: "center",
           backgroundColor: "pink",
+          border: "1px solid black",
         }}>
         {isGroupTitleEditMode ? (
           <>
-            <EditSubjectTitleInput />
-            <IconButton onClick={() => setIsGroupTitleEditMode(false)} aria-label="edit group title">
-              <Check />
-            </IconButton>
+            <Grid xs={3}>
+              <EditSubjectTitleInput />
+            </Grid>
+            <Grid xs={1}>
+              <IconButton onClick={() => setIsGroupTitleEditMode(false)} aria-label="edit group title done">
+                <Check />
+              </IconButton>
+            </Grid>
           </>
         ) : (
           <>
-            <Typography variant="subtitle1">{props.groupName}</Typography>
-            {/* // $ 그룹 이름 수정 원할때 IconButton */}
-            <IconButton onClick={() => setIsGroupTitleEditMode(true)} aria-label="edit group title">
-              <Create />
-            </IconButton>
+            <Grid xs={3}>
+              <Typography variant="subtitle1">{props.groupName}</Typography>
+            </Grid>
+            <Grid xs={1}>
+              <IconButton onClick={() => setIsGroupTitleEditMode(true)} aria-label="edit group title">
+                <Create fontSize="small" />
+              </IconButton>
+            </Grid>
           </>
         )}
-
         {/* // $ 그룹 추가 원할 때 IconButton */}
         <IconButton aria-label="add subject" sx={{ marginLeft: "auto" }}>
-          <Add />
+          <Add fontSize="small" />
         </IconButton>
         {/* // $ 그룹 삭제 원할 때 IconButton */}
         <IconButton aria-label="delete subject">
-          <Delete />
+          <Delete fontSize="small" />
         </IconButton>
-      </Box>
+      </Grid>
       {/* // ? 과목들 */}
-      {Array.from({ length: 3 }).map((e, idx) => (
+      {Array.from({ length: 3 }).map((_, idx) => (
         <Grid
           key={`subjectwrapperkey${idx}`}
           container
@@ -63,24 +71,24 @@ const SubjectGroupBox = (props: ISubjectGroupBoxProps) => {
             border: "1px solid black",
           }}>
           {/* // $ 과목 필수 체크박스 */}
-          <Grid xs={1}>
-            <Checkbox />
+          <Grid xs={1} display={"flex"}>
+            <Checkbox size="small" />
           </Grid>
           {/* // $ 과목 제외 체크박스 */}
           <Grid xs={1}>
-            <Checkbox />
+            <Checkbox size="small" />
           </Grid>
           {/* // $ 과목 이름 */}
           <Grid xs={4}>
-            <Typography>SUBJECT_NAME_HERE {idx}</Typography>
+            <Typography fontSize={"small"}>SUBJECT_NAME_HERE {idx}</Typography>
           </Grid>
           {/* // $ 과목 강의시간 */}
           <Grid xs={5}>
-            <Typography>SUBJECT_TIME_HERE</Typography>
+            <Typography fontSize={"small"}>SUBJECT_TIME_HERE</Typography>
           </Grid>
           <Grid xs={1}>
             <IconButton>
-              <Clear />
+              <Clear fontSize="small" />
             </IconButton>
           </Grid>
         </Grid>
