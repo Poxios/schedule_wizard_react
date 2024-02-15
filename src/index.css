@@ -1,20 +1,5 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
 .table-wrapper {
-  width: 600px;
+  /* width: 600px; */
   background-color: purple;
   display: flex;
   flex-wrap: wrap;
@@ -32,4 +17,44 @@
 .subject {
   background-color: black;
   position: absolute;
+}
+
+/* ! 과목 그룹 박스 */
+.subject-group-box-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+
+/* ? 맨 위 groupName Inputbox 등 Wrapper */
+.subject-group-box-nav {
+}
+/* 과목 그룹 제목 */
+.subject-group-box-nav > h1 {
+}
+/* 과목 그룹 제목 수정 시에 보여지는 input */
+.subject-group-box-nav > input {
+}
+/* 과목 그룹 제목 수정 원할때 누르는 Button */
+.subject-group-box-nav > button:nth-of-type(1) {
+}
+/* 과목 그룹에 새로운 그룹 추가할때 Button*/
+.subject-group-box-nav > button:nth-of-type(2) {
+}
+/* 과목 그룹 삭제하고 싶을 때 누르는 Button*/
+.subject-group-box-nav > button:nth-of-type(3) {
+}
+
+/* ? 내용 들어가는 가로 Wrapper */
+.subject-group-box-single-wrapper {
+}
+
+/* $ 필수, 제외 체크박스 */
+.subject-group-box-checkbox {
+}
+/* $ 과목 이름 Text*/
+.subject-group-box-subject-name-text {
+}
+/* $ 강의 시간 Text */
+.subject-group-box-time-text {
 }
