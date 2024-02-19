@@ -1,7 +1,6 @@
 // $ 파이썬과 공통으로 사용하는 단일 Subject
 interface ISubject {
   name: string;
-  gradeTime: string;
   time: {
     day: "MON" | "TUE" | "WED" | "THU" | "FRI";
     start: string;
@@ -16,5 +15,6 @@ interface ICandidateSubject extends ISubject {
 }
 export interface ICandidateSubjectGroup {
   name: string; // Must be unique
+  gradeTime: number;
   subjects: ISubject[];
 }
