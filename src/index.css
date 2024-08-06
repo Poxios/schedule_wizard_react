@@ -1,5 +1,5 @@
 .table-wrapper {
-  /* width: 600px; */
+  width: 600px;
   background-color: purple;
   display: flex;
   flex-wrap: wrap;
@@ -15,7 +15,7 @@
 }
 
 .subject {
-  background-color: black;
+  /* background-color: black; */
   position: absolute;
 }
 
