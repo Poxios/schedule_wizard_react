@@ -1,5 +1,6 @@
 import React, { useEffect, useMemo, useState } from "react";
 import DUMMY_DATA_RAW from "./assets/a.json";
+import SUBJECTS_RAW from "./assets/subjects.json";
 
 // ! 후보 리스트 (그룹 설정 페이지)
 // ! 각 과목 선택
@@ -9,7 +10,18 @@ import DUMMY_DATA_RAW from "./assets/a.json";
 // ! 이 요일이 공강이었으면 좋겠다
 // ! 이 시간이 비어있으면 좋겠다.
 // ! 이 시간표 즐겨찾기 (하트할수있는 기능)
-
+interface ISubjectSelect {
+  groups: {
+    name: string;
+    gradeTime: number;
+    isMandatory: boolean;
+    subjects: {
+      name: string;
+      time: unknown;
+    }[];
+  }[];
+}
+const SUBJECTS = SUBJECTS_RAW as unknown as ISubjectSelect;
 interface ISubject {
   name: string;
   gradeTime: number;
@@ -112,8 +124,10 @@ const ScheduleResultPage = () => {
         // ? 세부 잡은 과목
         (e) =>
           gotList.length === 0 ||
-          e.schedule.some((subject) => {
-            return gotList.includes(subject.name);
+          gotList.every((got) => {
+            return e.schedule.some((subject) => {
+              return subject.name === got;
+            });
           })
       )
       .filter(
@@ -127,6 +141,54 @@ const ScheduleResultPage = () => {
   }, [gotList, mandatoryList, removedList]);
   return (
     <>
+      <div
+        style={{
+          position: "absolute",
+          left: 0,
+          top: 200,
+          width: 400,
+          // height: "100%",
+          overflow: "auto",
+          fontSize: 12,
+        }}>
+        {SUBJECTS.groups.map((e, idx) =>
+          e.subjects.map((ee, idxidx) => (
+            <div key={`${idx}asdf${idxidx}`}>
+              <input
+                style={{ margin: 0 }}
+                type="checkbox"
+                id="vehicle1"
+                name="vehicle1"
+                value={ee.name}
+                checked={gotList.includes(ee.name)}
+                onChange={(e) => {
+                  if (e.target.checked) {
+                    setGotList((prev) => [...prev, ee.name]);
+                  } else {
+                    setGotList((prev) => prev.filter((v) => v !== ee.name));
+                  }
+                }}
+              />
+              <span style={{ fontSize: 8 }}>{ee.name}</span>
+              <input
+                style={{ margin: 0 }}
+                type="checkbox"
+                id="vehicle1"
+                name="vehicle1"
+                value={ee.name}
+                checked={removedList.includes(ee.name)}
+                onChange={(e) => {
+                  if (e.target.checked) {
+                    setRemovedList((prev) => [...prev, ee.name]);
+                  } else {
+                    setRemovedList((prev) => prev.filter((v) => v !== ee.name));
+                  }
+                }}
+              />
+            </div>
+          ))
+        )}
+      </div>
       {/* // ! 최종 리스트 curr cursor에서 absolute로 화면 우측에 세로로나열 */}
       <div
         style={{

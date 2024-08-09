@@ -1,0 +1,300 @@
+{
+  "groups": [
+      {
+          "name": "OS",
+          "gradeTime": 3,
+          "isMandatory": true,
+          "subjects": [
+              {
+                  "name": "OS 1",
+                  "time": [
+                      {"day": "MON", "start": "10:30", "end": "11:45"},
+                      {"day": "WED", "start": "10:30", "end": "11:45"}
+                  ]
+              },
+              {
+                  "name": "OS 2",
+                  "time": [
+                      {"day": "MON", "start": "12:00", "end": "13:15"},
+                      {"day": "WED", "start": "12:00", "end": "13:15"}
+                  ]
+              },
+              {
+                  "name": "OS 3",
+                  "time": [
+                      {"day": "MON", "start": "15:00", "end": "16:15"},
+                      {"day": "WED", "start": "15:00", "end": "16:15"}
+                  ]
+              }
+          ]
+      },
+      {
+          "name": "앱플밍",
+          "gradeTime": 3,
+          "isMandatory": false,
+          "subjects": [
+              {
+                  "name": "앱플밍",
+                  "time": [
+                      {"day": "MON", "start": "18:00", "end": "19:50"},
+                      {"day": "TUE", "start": "19:30", "end": "21:20"}
+                  ]
+              }
+          ]
+      },
+      {
+          "name": "알고리즘",
+          "gradeTime": 3,
+          "isMandatory": false,
+          "subjects": [
+              {
+                  "name": "알고리즘",
+                  "time": [
+                      {"day": "MON", "start": "16:30", "end": "17:45"},
+                      {"day": "THU", "start": "16:30", "end": "17:45"}
+                  ]
+              }
+          ]
+      },
+      {
+          "name": "신상품계획론",
+          "gradeTime": 3,
+          "isMandatory": false,
+          "subjects": [
+              {
+                  "name": "신상품계획론_김근배_2150434001",
+                  "time": [
+                      {"day": "WED", "start": "10:30", "end": "11:45"},
+                      {"day": "THU", "start": "10:30", "end": "11:45"}
+                  ]
+              },
+              {
+                  "name": "신상품계획론_김근배_2150434002",
+                  "time": [
+                      {"day": "WED", "start": "13:30", "end": "14:45"},
+                      {"day": "THU", "start": "13:30", "end": "14:45"}
+                  ]
+              },
+              {
+                  "name": "신상품계획론_정문선_2150434004",
+                  "time": [
+                      {"day": "THU", "start": "13:30", "end": "14:45"},
+                      {"day": "THU", "start": "15:00", "end": "16:15"}
+                  ]
+              }
+          ]
+      },
+      {
+          "name": "컴퓨터비전",
+          "gradeTime": 3,
+          "isMandatory": false,
+          "subjects": [
+              {
+                  "name": "컴퓨터비전_송현주_2150692501",
+                  "time": [
+                      {"day": "MON", "start": "12:00", "end": "13:15"},
+                      {"day": "WED", "start": "10:30", "end": "11:45"}
+                  ]
+              },
+              {
+                  "name": "컴퓨터비전_송현주_2150692502",
+                  "time": [
+                      {"day": "TUE", "start": "12:00", "end": "13:15"},
+                      {"day": "THU", "start": "12:00", "end": "13:15"}
+                  ]
+              }
+          ]
+      },
+      {
+          "name": "데이터베이스",
+          "gradeTime": 3,
+          "isMandatory": false,
+          "subjects": [
+              {
+                  "name": "데이터베이스1",
+                  "time": [
+                      {"day": "MON", "start": "13:30", "end": "14:45"},
+                      {"day": "WED", "start": "13:30", "end": "14:45"}
+                  ]
+              },
+              {
+                  "name": "데이터베이스2",
+                  "time": [
+                      {"day": "TUE", "start": "12:00", "end": "13:15"},
+                      {"day": "THU", "start": "12:00", "end": "13:15"}
+                  ]
+              },
+              {
+                  "name": "데이터베이스3",
+                  "time": [
+                      {"day": "TUE", "start": "15:00", "end": "16:15"},
+                      {"day": "THU", "start": "15:00", "end": "16:15"}
+                  ]
+              }
+          ]
+      },
+      {
+          "name": "섬김의리더십",
+          "gradeTime": 1,
+          "isMandatory": false,
+          "subjects": [
+              {
+                  "name": "섬김의리더십_문정화_2150533701",
+                  "time": [{"day": "THU", "start": "14:00", "end": "14:50"}]
+              },
+              {
+                  "name": "섬김의리더십_최춘화_2150533702",
+                  "time": [{"day": "MON", "start": "16:00", "end": "16:50"}]
+              },
+              {
+                  "name": "섬김의리더십_문정화_2150533703",
+                  "time": [{"day": "TUE", "start": "15:00", "end": "15:50"}]
+              },
+              {
+                  "name": "섬김의리더십_문정화_2150533704",
+                  "time": [{"day": "TUE", "start": "16:00", "end": "16:50"}]
+              },
+              {
+                  "name": "섬김의리더십_문정화_2150533705",
+                  "time": [{"day": "WED", "start": "14:00", "end": "14:50"}]
+              },
+              {
+                  "name": "섬김의리더십_문정화_2150533706",
+                  "time": [{"day": "THU", "start": "15:00", "end": "15:50"}]
+              },
+              {
+                  "name": "섬김의리더십_문정화_2150533707",
+                  "time": [{"day": "THU", "start": "16:00", "end": "16:50"}]
+              },
+              {
+                  "name": "섬김의리더십_최춘화_2150533710",
+                  "time": [{"day": "WED", "start": "15:00", "end": "15:50"}]
+              },
+              {
+                  "name": "섬김의리더십_최춘화_2150533711",
+                  "time": [{"day": "WED", "start": "16:00", "end": "16:50"}]
+              },
+              {
+                  "name": "섬김의리더십_문정화_2150533714",
+                  "time": [{"day": "TUE", "start": "14:00", "end": "14:50"}]
+              }
+          ]
+      },
+      {
+          "name": "비전채플",
+          "gradeTime": 0.5,
+          "isMandatory": true,
+          "subjects": [
+              {
+                  "name": "비전채플_김회권_2150101508",
+                  "time": [{"day": "TUE", "start": "16:30", "end": "17:20"}]
+              },
+              {
+                  "name": "비전채플_김회권_2150101504",
+                  "time": [{"day": "MON", "start": "16:30", "end": "17:20"}]
+              },
+              {
+                  "name": "비전채플_조은식_2150101501",
+                  "time": [{"day": "MON", "start": "10:30", "end": "11:20"}]
+              },
+              {
+                  "name": "비전채플_조은식_2150101502",
+                  "time": [{"day": "MON", "start": "13:30", "end": "14:20"}]
+              },
+              {
+                  "name": "비전채플_김회권_2150101503",
+                  "time": [{"day": "MON", "start": "15:00", "end": "15:50"}]
+              },
+              {
+                  "name": "비전채플_조은식_2150101505",
+                  "time": [{"day": "TUE", "start": "10:30", "end": "11:20"}]
+              },
+              {
+                  "name": "비전채플_조은식_2150101506",
+                  "time": [{"day": "TUE", "start": "13:30", "end": "14:20"}]
+              },
+              {
+                  "name": "비전채플_김회권_2150101507",
+                  "time": [{"day": "TUE", "start": "15:00", "end": "15:50"}]
+              }
+          ]
+      },
+      {
+          "name": "확통",
+          "gradeTime": 3,
+          "isMandatory": false,
+          "subjects": [
+              {
+                  "name": "확통1 (한진일)",
+                  "time": [
+                      {"day": "MON", "start": "15:00", "end": "16:15"},
+                      {"day": "WED", "start": "10:30", "end": "11:45"}
+                  ]
+              },
+              {
+                  "name": "확통2 (한진일)",
+                  "time": [
+                      {"day": "MON", "start": "10:30", "end": "11:45"},
+                      {"day": "TUE", "start": "15:00", "end": "16:15"}
+                  ]
+              },
+              {
+                  "name": "확통3 (이연수)",
+                  "time": [
+                      {"day": "TUE", "start": "15:00", "end": "16:15"},
+                      {"day": "WED", "start": "15:00", "end": "16:15"}
+                  ]
+              }
+          ]
+      },
+      {
+          "name": "소비자행동론",
+          "gradeTime": 3,
+          "isMandatory": false,
+          "subjects": [
+              {
+                  "name": "소비자행동론_이명수_2150610302",
+                  "time": [
+                      {"day": "WED", "start": "15:00", "end": "16:15"},
+                      {"day": "WED", "start": "16:30", "end": "17:45"}
+                  ]
+              }
+          ]
+      },
+      {
+          "name": "전공종합설계2",
+          "gradeTime": 3,
+          "isMandatory": false,
+          "subjects": [
+              {
+                  "name": "전종설1",
+                  "time": [
+                      {"day": "MON", "start": "13:30", "end": "14:45"},
+                      {"day": "WED", "start": "13:30", "end": "14:45"}
+                  ]
+              },
+              {
+                  "name": "전종설2",
+                  "time": [
+                      {"day": "MON", "start": "13:30", "end": "14:45"},
+                      {"day": "WED", "start": "15:00", "end": "16:15"}
+                  ]
+              }
+          ]
+      },
+      {
+          "name": "정보보안",
+          "gradeTime": 3,
+          "isMandatory": false,
+          "subjects": [
+              {
+                  "name": "정보보안_최봉준_2150630801",
+                  "time": [
+                      {"day": "TUE", "start": "10:30", "end": "11:45"},
+                      {"day": "THU", "start": "10:30", "end": "11:45"}
+                  ]
+              }
+          ]
+      }
+  ]
+}
