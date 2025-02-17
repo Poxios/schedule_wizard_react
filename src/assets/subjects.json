@@ -1,464 +1,618 @@
 {
-    "groups": [
+  "groups": [
+    {
+      "name": "전공종합설계1",
+      "gradeTime": 3,
+      "isMandatory": true,
+      "subjects": [
         {
-            "name": "오픈소스기반기초설계",
-            "gradeTime": 3,
-            "isMandatory": false,
-            "subjects": [
-                {
-                    "name": "오픈소스기반기초설계_김익수_2150061301",
-                    "time": [
-                        {
-                            "day": "WED",
-                            "start": "09:00",
-                            "end": "10:15"
-                        },
-                        {
-                            "day": "WED",
-                            "start": "10:30",
-                            "end": "11:45"
-                        }
-                    ]
-                }
-            ]
+          "name": "전공종합설계1-1",
+          "time": [
+            {
+              "day": "MON",
+              "start": "13:30",
+              "end": "14:45"
+            },
+            {
+              "day": "WED",
+              "start": "13:30",
+              "end": "14:45"
+            }
+          ]
         },
         {
-            "name": "OS",
-            "gradeTime": 3,
-            "isMandatory": true,
-            "subjects": [
-                {
-                    "name": "OS 1",
-                    "time": [
-                        {
-                            "day": "MON",
-                            "start": "10:30",
-                            "end": "11:45"
-                        },
-                        {
-                            "day": "WED",
-                            "start": "10:30",
-                            "end": "11:45"
-                        }
-                    ]
-                },
-                {
-                    "name": "OS 2",
-                    "time": [
-                        {
-                            "day": "MON",
-                            "start": "12:00",
-                            "end": "13:15"
-                        },
-                        {
-                            "day": "WED",
-                            "start": "12:00",
-                            "end": "13:15"
-                        }
-                    ]
-                },
-                {
-                    "name": "OS 3",
-                    "time": [
-                        {
-                            "day": "MON",
-                            "start": "15:00",
-                            "end": "16:15"
-                        },
-                        {
-                            "day": "WED",
-                            "start": "15:00",
-                            "end": "16:15"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "앱플밍",
-            "gradeTime": 3,
-            "isMandatory": false,
-            "subjects": [
-                {
-                    "name": "앱플밍",
-                    "time": [
-                        {
-                            "day": "MON",
-                            "start": "18:00",
-                            "end": "19:50"
-                        },
-                        {
-                            "day": "TUE",
-                            "start": "19:30",
-                            "end": "21:20"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "알고리즘",
-            "gradeTime": 3,
-            "isMandatory": false,
-            "subjects": [
-                {
-                    "name": "알고리즘",
-                    "time": [
-                        {
-                            "day": "MON",
-                            "start": "16:30",
-                            "end": "17:45"
-                        },
-                        {
-                            "day": "THU",
-                            "start": "16:30",
-                            "end": "17:45"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "컴퓨터비전",
-            "gradeTime": 3,
-            "isMandatory": false,
-            "subjects": [
-                {
-                    "name": "컴퓨터비전_송현주_2150692501",
-                    "time": [
-                        {
-                            "day": "MON",
-                            "start": "12:00",
-                            "end": "13:15"
-                        },
-                        {
-                            "day": "WED",
-                            "start": "10:30",
-                            "end": "11:45"
-                        }
-                    ]
-                },
-                {
-                    "name": "컴퓨터비전_송현주_2150692502",
-                    "time": [
-                        {
-                            "day": "TUE",
-                            "start": "12:00",
-                            "end": "13:15"
-                        },
-                        {
-                            "day": "THU",
-                            "start": "12:00",
-                            "end": "13:15"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "데이터베이스",
-            "gradeTime": 3,
-            "isMandatory": false,
-            "subjects": [
-                {
-                    "name": "데이터베이스1",
-                    "time": [
-                        {
-                            "day": "MON",
-                            "start": "13:30",
-                            "end": "14:45"
-                        },
-                        {
-                            "day": "WED",
-                            "start": "13:30",
-                            "end": "14:45"
-                        }
-                    ]
-                },
-                {
-                    "name": "데이터베이스2",
-                    "time": [
-                        {
-                            "day": "TUE",
-                            "start": "12:00",
-                            "end": "13:15"
-                        },
-                        {
-                            "day": "THU",
-                            "start": "12:00",
-                            "end": "13:15"
-                        }
-                    ]
-                },
-                {
-                    "name": "데이터베이스3",
-                    "time": [
-                        {
-                            "day": "TUE",
-                            "start": "15:00",
-                            "end": "16:15"
-                        },
-                        {
-                            "day": "THU",
-                            "start": "15:00",
-                            "end": "16:15"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "섬김의리더십",
-            "gradeTime": 1,
-            "isMandatory": false,
-            "subjects": [
-                {
-                    "name": "섬김의리더십_문정화_2150533701",
-                    "time": [
-                        {
-                            "day": "THU",
-                            "start": "14:00",
-                            "end": "14:50"
-                        }
-                    ]
-                },
-                {
-                    "name": "섬김의리더십_최춘화_2150533702",
-                    "time": [
-                        {
-                            "day": "MON",
-                            "start": "16:00",
-                            "end": "16:50"
-                        }
-                    ]
-                },
-                {
-                    "name": "섬김의리더십_문정화_2150533703",
-                    "time": [
-                        {
-                            "day": "TUE",
-                            "start": "15:00",
-                            "end": "15:50"
-                        }
-                    ]
-                },
-                {
-                    "name": "섬김의리더십_문정화_2150533704",
-                    "time": [
-                        {
-                            "day": "TUE",
-                            "start": "16:00",
-                            "end": "16:50"
-                        }
-                    ]
-                },
-                {
-                    "name": "섬김의리더십_문정화_2150533705",
-                    "time": [
-                        {
-                            "day": "WED",
-                            "start": "14:00",
-                            "end": "14:50"
-                        }
-                    ]
-                },
-                {
-                    "name": "섬김의리더십_문정화_2150533706",
-                    "time": [
-                        {
-                            "day": "THU",
-                            "start": "15:00",
-                            "end": "15:50"
-                        }
-                    ]
-                },
-                {
-                    "name": "섬김의리더십_문정화_2150533707",
-                    "time": [
-                        {
-                            "day": "THU",
-                            "start": "16:00",
-                            "end": "16:50"
-                        }
-                    ]
-                },
-                {
-                    "name": "섬김의리더십_최춘화_2150533710",
-                    "time": [
-                        {
-                            "day": "WED",
-                            "start": "15:00",
-                            "end": "15:50"
-                        }
-                    ]
-                },
-                {
-                    "name": "섬김의리더십_최춘화_2150533711",
-                    "time": [
-                        {
-                            "day": "WED",
-                            "start": "16:00",
-                            "end": "16:50"
-                        }
-                    ]
-                },
-                {
-                    "name": "섬김의리더십_문정화_2150533714",
-                    "time": [
-                        {
-                            "day": "TUE",
-                            "start": "14:00",
-                            "end": "14:50"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "비전채플",
-            "gradeTime": 0.5,
-            "isMandatory": true,
-            "subjects": [
-                {
-                    "name": "비전채플_김회권_2150101508",
-                    "time": [
-                        {
-                            "day": "TUE",
-                            "start": "16:30",
-                            "end": "17:20"
-                        }
-                    ]
-                },
-                {
-                    "name": "비전채플_김회권_2150101504",
-                    "time": [
-                        {
-                            "day": "MON",
-                            "start": "16:30",
-                            "end": "17:20"
-                        }
-                    ]
-                },
-                {
-                    "name": "비전채플_조은식_2150101501",
-                    "time": [
-                        {
-                            "day": "MON",
-                            "start": "10:30",
-                            "end": "11:20"
-                        }
-                    ]
-                },
-                {
-                    "name": "비전채플_조은식_2150101502",
-                    "time": [
-                        {
-                            "day": "MON",
-                            "start": "13:30",
-                            "end": "14:20"
-                        }
-                    ]
-                },
-                {
-                    "name": "비전채플_김회권_2150101503",
-                    "time": [
-                        {
-                            "day": "MON",
-                            "start": "15:00",
-                            "end": "15:50"
-                        }
-                    ]
-                },
-                {
-                    "name": "비전채플_조은식_2150101505",
-                    "time": [
-                        {
-                            "day": "TUE",
-                            "start": "10:30",
-                            "end": "11:20"
-                        }
-                    ]
-                },
-                {
-                    "name": "비전채플_조은식_2150101506",
-                    "time": [
-                        {
-                            "day": "TUE",
-                            "start": "13:30",
-                            "end": "14:20"
-                        }
-                    ]
-                },
-                {
-                    "name": "비전채플_김회권_2150101507",
-                    "time": [
-                        {
-                            "day": "TUE",
-                            "start": "15:00",
-                            "end": "15:50"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "전공종합설계2",
-            "gradeTime": 3,
-            "isMandatory": false,
-            "subjects": [
-                {
-                    "name": "전종설1",
-                    "time": [
-                        {
-                            "day": "MON",
-                            "start": "13:30",
-                            "end": "14:45"
-                        },
-                        {
-                            "day": "WED",
-                            "start": "13:30",
-                            "end": "14:45"
-                        }
-                    ]
-                },
-                {
-                    "name": "전종설2",
-                    "time": [
-                        {
-                            "day": "MON",
-                            "start": "13:30",
-                            "end": "14:45"
-                        },
-                        {
-                            "day": "WED",
-                            "start": "15:00",
-                            "end": "16:15"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "정보보안",
-            "gradeTime": 3,
-            "isMandatory": false,
-            "subjects": [
-                {
-                    "name": "정보보안_최봉준_2150630801",
-                    "time": [
-                        {
-                            "day": "TUE",
-                            "start": "10:30",
-                            "end": "11:45"
-                        },
-                        {
-                            "day": "THU",
-                            "start": "10:30",
-                            "end": "11:45"
-                        }
-                    ]
-                }
-            ]
+          "name": "전공종합설계1-2",
+          "time": [
+            {
+              "day": "MON",
+              "start": "15:00",
+              "end": "16:15"
+            },
+            {
+              "day": "WED",
+              "start": "15:00",
+              "end": "16:15"
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "name": "유통물류창업론",
+      "gradeTime": 3,
+      "isMandatory": true,
+      "subjects": [
+        {
+          "name": "유통물류창업론 (2150050801)",
+          "time": [
+            {
+              "day": "TUE",
+              "start": "15:00",
+              "end": "16:15"
+            },
+            {
+              "day": "TUE",
+              "start": "16:30",
+              "end": "17:45"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "컴퓨터학개론",
+      "gradeTime": 3,
+      "isMandatory": false,
+      "subjects": [
+        {
+          "name": "컴퓨터학개론 (2150016203(공통-재수강))",
+          "time": [
+            {
+              "day": "MON",
+              "start": "09:00",
+              "end": "10:15"
+            },
+            {
+              "day": "MON",
+              "start": "10:30",
+              "end": "11:45"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "벤처중소기업브랜드전략",
+      "gradeTime": 3,
+      "isMandatory": false,
+      "subjects": [
+        {
+          "name": "벤처중소기업브랜드전략 (2150630601)",
+          "time": [
+            {
+              "day": "FRI",
+              "start": "09:00",
+              "end": "10:15"
+            },
+            {
+              "day": "FRI",
+              "start": "10:30",
+              "end": "11:45"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Entrepreneurship",
+      "gradeTime": 3,
+      "isMandatory": false,
+      "subjects": [
+        {
+          "name": "Entrepreneurship (2150328201)",
+          "time": [
+            {
+              "day": "TUE",
+              "start": "10:30",
+              "end": "11:45"
+            },
+            {
+              "day": "TUE",
+              "start": "12:00",
+              "end": "13:15"
+            }
+          ]
+        },
+        {
+          "name": "Entrepreneurship (2150328202)",
+          "time": [
+            {
+              "day": "TUE",
+              "start": "13:30",
+              "end": "14:45"
+            },
+            {
+              "day": "TUE",
+              "start": "15:00",
+              "end": "16:15"
+            }
+          ]
+        },
+        {
+          "name": "Entrepreneurship (2150328203)",
+          "time": [
+            {
+              "day": "FRI",
+              "start": "13:30",
+              "end": "14:45"
+            },
+            {
+              "day": "FRI",
+              "start": "15:00",
+              "end": "16:15"
+            }
+          ]
+        },
+        {
+          "name": "Entrepreneurship (2150644001)",
+          "time": [
+            {
+              "day": "WED",
+              "start": "15:00",
+              "end": "16:15"
+            },
+            {
+              "day": "WED",
+              "start": "16:30",
+              "end": "17:45"
+            }
+          ]
+        },
+        {
+          "name": "Entrepreneurship (2150644002(공통-재수강))",
+          "time": [
+            {
+              "day": "WED",
+              "start": "18:00",
+              "end": "19:15"
+            },
+            {
+              "day": "WED",
+              "start": "19:30",
+              "end": "20:45"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "생산시스템관리",
+      "gradeTime": 3,
+      "isMandatory": false,
+      "subjects": [
+        {
+          "name": "생산시스템관리 (2150361701)",
+          "time": [
+            {
+              "day": "TUE",
+              "start": "10:30",
+              "end": "11:45"
+            },
+            {
+              "day": "WED",
+              "start": "15:00",
+              "end": "16:15"
+            }
+          ]
+        },
+        {
+          "name": "생산시스템관리 (2150361702)",
+          "time": [
+            {
+              "day": "MON",
+              "start": "12:00",
+              "end": "13:15"
+            },
+            {
+              "day": "WED",
+              "start": "10:30",
+              "end": "11:45"
+            }
+          ]
+        },
+        {
+          "name": "생산시스템관리 (2150361703)",
+          "time": [
+            {
+              "day": "MON",
+              "start": "13:30",
+              "end": "14:45"
+            },
+            {
+              "day": "WED",
+              "start": "12:00",
+              "end": "13:15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "컴퓨터공학특강1",
+      "gradeTime": 2,
+      "isMandatory": false,
+      "subjects": [
+        {
+          "name": "컴퓨터공학특강1 (2150604601)",
+          "time": [
+            {
+              "day": "WED",
+              "start": "10:00",
+              "end": "10:50"
+            },
+            {
+              "day": "WED",
+              "start": "11:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "스타트업비즈니스모델개발론",
+      "gradeTime": 3,
+      "isMandatory": false,
+      "subjects": [
+        {
+          "name": "스타트업비즈니스모델개발론 (2150039601)",
+          "time": [
+            {
+              "day": "THU",
+              "start": "13:30",
+              "end": "14:45"
+            },
+            {
+              "day": "THU",
+              "start": "15:00",
+              "end": "16:15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "마케팅",
+      "gradeTime": 3,
+      "isMandatory": false,
+      "subjects": [
+        {
+          "name": "마케팅 (2150338201)",
+          "time": [
+            {
+              "day": "WED",
+              "start": "12:00",
+              "end": "13:15"
+            },
+            {
+              "day": "THU",
+              "start": "15:00",
+              "end": "16:15"
+            }
+          ]
+        },
+        {
+          "name": "마케팅 (2150338202)",
+          "time": [
+            {
+              "day": "TUE",
+              "start": "13:30",
+              "end": "14:45"
+            },
+            {
+              "day": "THU",
+              "start": "13:30",
+              "end": "14:45"
+            }
+          ]
+        },
+        {
+          "name": "마케팅 (2150338203)",
+          "time": [
+            {
+              "day": "TUE",
+              "start": "10:30",
+              "end": "11:45"
+            },
+            {
+              "day": "THU",
+              "start": "10:30",
+              "end": "11:45"
+            }
+          ]
+        },
+        {
+          "name": "마케팅 (2150338204(공통-재수강))",
+          "time": [
+            {
+              "day": "THU",
+              "start": "10:30",
+              "end": "11:45"
+            },
+            {
+              "day": "THU",
+              "start": "12:00",
+              "end": "13:15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "경영정보시스템",
+      "gradeTime": 3,
+      "isMandatory": false,
+      "subjects": [
+        {
+          "name": "경영정보시스템 (2150558701)",
+          "time": [
+            {
+              "day": "MON",
+              "start": "12:00",
+              "end": "13:15"
+            },
+            {
+              "day": "THU",
+              "start": "12:00",
+              "end": "13:15"
+            }
+          ]
+        },
+        {
+          "name": "경영정보시스템 (2150558702)",
+          "time": [
+            {
+              "day": "MON",
+              "start": "13:30",
+              "end": "14:45"
+            },
+            {
+              "day": "FRI",
+              "start": "13:30",
+              "end": "14:45"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "컴퓨터그래픽스",
+      "gradeTime": 3,
+      "isMandatory": false,
+      "subjects": [
+        {
+          "name": "컴퓨터그래픽스 (2150629401)",
+          "time": [
+            {
+              "day": "TUE",
+              "start": "13:30",
+              "end": "14:45"
+            },
+            {
+              "day": "THU",
+              "start": "13:30",
+              "end": "14:45"
+            }
+          ]
+        },
+        {
+          "name": "컴퓨터그래픽스 (2150629402)",
+          "time": [
+            {
+              "day": "TUE",
+              "start": "15:00",
+              "end": "16:15"
+            },
+            {
+              "day": "THU",
+              "start": "15:00",
+              "end": "16:15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "컴퓨터비전응용",
+      "gradeTime": 3,
+      "isMandatory": false,
+      "subjects": [
+        {
+          "name": "컴퓨터비전응용 (2150046101)",
+          "time": [
+            {
+              "day": "WED",
+              "start": "13:30",
+              "end": "14:45"
+            },
+            {
+              "day": "FRI",
+              "start": "13:30",
+              "end": "14:45"
+            }
+          ]
+        },
+        {
+          "name": "컴퓨터비전응용 (2150046102)",
+          "time": [
+            {
+              "day": "TUE",
+              "start": "13:30",
+              "end": "14:45"
+            },
+            {
+              "day": "THU",
+              "start": "13:30",
+              "end": "14:45"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "소비자행동론",
+      "gradeTime": 3,
+      "isMandatory": false,
+      "subjects": [
+        {
+          "name": "소비자행동론 (2150672701)",
+          "time": [
+            {
+              "day": "MON",
+              "start": "15:00",
+              "end": "16:15"
+            },
+            {
+              "day": "WED",
+              "start": "15:00",
+              "end": "16:15"
+            }
+          ]
+        },
+        {
+          "name": "소비자행동론 (2150672702)",
+          "time": [
+            {
+              "day": "MON",
+              "start": "09:00",
+              "end": "10:15"
+            },
+            {
+              "day": "WED",
+              "start": "09:00",
+              "end": "10:15"
+            }
+          ]
+        },
+        {
+          "name": "소비자행동론 (2150672703)",
+          "time": [
+            {
+              "day": "MON",
+              "start": "10:30",
+              "end": "11:45"
+            },
+            {
+              "day": "WED",
+              "start": "10:30",
+              "end": "11:45"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "빅데이터와 Business Intelligence",
+      "gradeTime": 3,
+      "isMandatory": false,
+      "subjects": [
+        {
+          "name": "빅데이터와 Business Intelligence (2150572001)",
+          "time": [
+            {
+              "day": "TUE",
+              "start": "16:30",
+              "end": "17:45"
+            },
+            {
+              "day": "TUE",
+              "start": "18:00",
+              "end": "19:15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "데이터베이스응용",
+      "gradeTime": 3,
+      "isMandatory": false,
+      "subjects": [
+        {
+          "name": "데이터베이스응용 (2150565701)",
+          "time": [
+            {
+              "day": "MON",
+              "start": "12:00",
+              "end": "13:15"
+            },
+            {
+              "day": "WED",
+              "start": "12:00",
+              "end": "13:15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "지능형시스템",
+      "gradeTime": 3,
+      "isMandatory": false,
+      "subjects": [
+        {
+          "name": "지능형시스템 (2150534701)",
+          "time": [
+            {
+              "day": "WED",
+              "start": "16:30",
+              "end": "17:45"
+            },
+            {
+              "day": "WED",
+              "start": "18:00",
+              "end": "19:15"
+            }
+          ]
+        },
+        {
+          "name": "지능형시스템 (2150534702)",
+          "time": [
+            {
+              "day": "MON",
+              "start": "16:30",
+              "end": "17:45"
+            },
+            {
+              "day": "MON",
+              "start": "18:00",
+              "end": "19:15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "파일처리",
+      "gradeTime": 3,
+      "isMandatory": false,
+      "subjects": [
+        {
+          "name": "파일처리 (2150226703)",
+          "time": [
+            {
+              "day": "TUE",
+              "start": "10:30",
+              "end": "11:45"
+            },
+            {
+              "day": "TUE",
+              "start": "12:00",
+              "end": "13:15"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
